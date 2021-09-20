@@ -1,0 +1,13 @@
+.respuesta{
+    text-align: center;
+    width: 49%;
+    margin: auto;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.btn{
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.btn{
+    text-align: center;
+}
+
+.tabla{
+    margin-top: 10px;
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.tabla div{
+    padding: 1rem; 
+
+}
+
+.x, .y{
+    display: flex;
+    border-bottom: 1px solid #fff;
+    justify-content: space-around;
+}/*
+.x span, 
+.y span {
+    text-align: center;
+    border-left: 1px solid #fff;
+    width: 100%;
+}
+
+.x span:first-child,
+.y span:first-child{
+    border: 1px solid #fff;
+}*/

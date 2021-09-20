@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon"   href="/img/think.ico"/>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/css/gasolinera.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="barra contenedor">
+            <div class="nombre-sitio">
+                <p>T'Mesias</p>
+            </div>
+            <nav class="menu">
+                <a href="/html/index.html">Inicio</a>
+                <a href="#">Prueba</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main contenedor">
+        <form action="" id="formulario" class="formulario">
+            <h1>GASOLINERA T'MESIAS</h1>
+            <div class="contenedor-formulario">
+                <div class="litros">
+                    <label for="">Gasolina Disponible</label>
+                    <input type="text" id="ltd" placeholder="50L">
+                </div>
+                <div class="litros">
+                    <label for="">Vehiculos Despachados</label>
+                    <input type="text" id="despacho" disabled>
+                </div>
+            </div>
+            <div class="gasolina">
+                <div class="super">
+                    <label for="">Super 
+                        <img src="/img/super.svg" alt="">
+                    </label>
+                    <input type="radio" id="csuper" name="gas">
+                </div>
+                <div class="extra">
+                    <label for="">Extra 
+                        <img src="/img/extra.svg" alt="">
+                    </label>
+                    <input type="radio" id="cextra" name="gas" >
+                </div>
+                <div class="diesel">
+                    <label for="">Diesel 
+                        <img src="/img/diesel.svg" alt="">
+                    </label>
+                    <input type="radio" id="cdiesel" name="gas" >
+                </div>
+            </div>
+            <div class="cantidad">
+                <label for="">Ingrese litros a vender</label>
+                <input type="number" required id="vender" required>
+            </div>
+            <div class="venta contenedor-formulario">
+                <div class="litros">
+                    <label for="">Dinero Recaudado</label>
+                    <input type="text" id="dinero">
+                </div>
+                <div class="litros">
+                    <label for="">Vehiculo mas Despachado</label>
+                    <input type="text" id="vmdespacho" disabled>
+                </div>
+
+            </div>
+            <div class="litros-venta">
+                <div class="litros">
+                    <label for="">Super</label>
+                    <input type="text" id="vsuper" disabled required>
+                </div>
+                <div class="litros">
+                    <label for="">Extra</label>
+                    <input type="text" id="vextra" disabled required>
+                </div>
+                <div class="litros">
+                    <label for="">Diesel</label>
+                    <input type="text" id="vdiesel" disabled required>
+                </div>
+            </div>
+            <div class="btn">
+                <button type="submit">VENDER</button>
+            </div>
+        </form>
+    <script src="/js/gasolinera.js"></script>
+</body>
+</html>

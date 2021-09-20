@@ -1,0 +1,32 @@
+.req{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.req ul {
+    margin-left: 25px;
+}
+
+.formulario{
+    border: none;
+}
+button{
+    font-size: 1rem;
+}
+
+.respuesta{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.respuesta p {
+    border: 1px solid black;
+    padding: .5rem;
+    margin: 1px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/css/sextoNum.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="barra contenedor">
+            <div class="nombre-sitio">
+                <p>T'Mesias</p>
+            </div>
+            <nav class="menu">
+                <a href="/html/index.html">Inicio</a>
+                <a href="#">Prueba</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main contenedor">
+        <h1>Calcular el sexto número</h1> 
+        <form action="" id="formulario" class="formulario">
+            <div class="contenedor-formulario">
+                <div class="nuno">
+                    <label for="">Número 1</label>
+                    <input type="number" id="numerouno"  min="10000" max="99999" required>
+                </div>
+                <div class="nuno">
+                    <label for="">Número 2</label>
+                    <input type="number" id="numerodos" min="10000" max="99999"  required>
+                </div>
+                <div class="nuno">
+                    <label for="">Número 3</label>
+                    <input type="number" id="numerotres"  min="10000" max="99999" required>
+                </div>
+                <div class="nuno">
+                    <label for="">Número 4</label>
+                    <input type="number" id="numerocuatro" min="10000" max="99999" required>
+                </div>
+                <div class="nuno">
+                    <label for="">Número 5</label>
+                    <input type="number" id="numerocinco" min="10000" max="99999" required>
+                </div>
+                <div class="nuno">
+                    <label for="">Número 6</label>
+                    <input type="number" id="numeroseis" disabled>
+                </div>
+            </div>
+             <button type="submit">ENVIAR</button>  
+        </form>
+       
+    </main>
+
+    <script type="module" src="/js/sextoNum.js"></script>
+</body>
+</html>

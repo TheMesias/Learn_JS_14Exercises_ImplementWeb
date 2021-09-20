@@ -1,0 +1,142 @@
+.formulario{
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+    border: none;
+}
+
+.contenedor-formulario{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input{
+    border: none;
+    background-color: #fff;
+}
+
+label{
+    color: #fff;
+}
+
+.litros{
+    width: 40%;
+}
+h1{
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+.gasolina{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gasolina div{
+    text-align: center;
+    width: 20%;
+    
+}
+
+.gasolina label{
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+.venta{
+    margin-top: 20px;
+}
+
+.litros-venta{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.litros-venta div{
+    margin-top: 10px;
+    width: 24%;
+}
+
+
+
+.btn{
+    width: 100%; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button{
+    color:rgb(59, 59, 59);
+    width: 40%;
+    font-size: 1rem;
+    padding: .8rem  .5rem;
+}
+
+#ltd{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #F4DD41;
+}
+
+#despacho{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #83B53A;
+}
+
+#vsuper{
+    text-align: center;
+    background-color: #EE6969;
+}
+
+#vextra{
+    text-align: center;
+    background-color: #83B53A;
+}
+
+#vdiesel{
+    text-align: center;
+    background-color: #FDA600;
+}
+
+.cantidad{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.cantidad input{
+    width: 30%;
+   
+}
+
+.cantidad label{
+    margin-right: 10px;
+}
+
+#dinero{
+    text-align: center;
+    font-size: 1rem;
+    background-color: #009400;
+    color: #fff;
+    
+}
+
+#vender{
+    text-align: center;
+    background-color: #F4DD41;
+}
+
+#vmdespacho {
+    text-align: center;
+    background-color: #F6C863;
+}

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+.contenedor{
+    max-width: 1024px;
+    margin: auto;
+}
+.header{
+    top: 0;
+    position: sticky;
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 0px -1px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 9px -1px rgba(0,0,0,0.75);
+}
+
+.header:hover{
+    background-color: #F4DD41;
+}
+
+.header .barra{
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem;
+    
+}
+
+.nombre-sitio p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+
+.menu{
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000;
+    margin-left: .5rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+    transition: 12s ease;
+    
+}
+.menu a:hover{
+    transition: 12s ease;
+    border-bottom: 1px solid black;
+}
+
+.contenedor__plano {
+    width: inherit;
+    margin:  0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.plano__paint{
+    margin: 0 auto;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    left: 308px;
+    top: 0;
+    width: 40%;
+}
+
+.plano__paint--cor{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+.formulario{
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    height: auto;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+label{
+    color: #000;
+    font-size: 16px;
+    top: 10px;
+    left: 5px;
+    transition: top .5s, font-size .5s, color .5s;
+    margin-top: 20px;
+}
+
+label:first-child{
+    margin-top: 0px;
+}
+
+input{
+    background: none;
+    color: #000000;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a4d3e9;
+}
+
+h2{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+
+.contenedor-formulario p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: .8rem 1rem;
+    margin: 20px auto 0 auto;
+    background: #F4DD41;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.cuno{
+    background-color: rgba(241, 218, 10, 0.507);
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
+    margin-top: 100% - 50%;
+}
+
+.eje{
+    border-bottom: 5px solid rgba(241, 218, 10, 0.829);
+}
+
+.ejedos{
+    border-left: 5px solid rgb(241, 218, 10);
+}
+
+#respuesta{
+    text-align: center;
+}

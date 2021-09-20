@@ -1,0 +1,17 @@
+.main{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btnn{
+    text-align: center;
+}

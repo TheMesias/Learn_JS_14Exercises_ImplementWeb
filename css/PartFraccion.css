@@ -1,0 +1,51 @@
+input:first-child{
+    border-bottom: 3px solid #a4d3e9;
+    text-align: center;
+}
+
+input:nth-child(2){
+    border-bottom: none;
+    text-align: center;
+}
+
+.formulario__fraccion{
+    width: 20%; 
+    margin: auto;
+}
+
+.contenedor-formulario p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: .8rem 1rem;
+    margin: 20px auto 0 auto;
+    background: #F4DD41;
+    color: #000;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+h1, h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+h2{
+    font-weight: 300;
+    padding: .5rem;
+}
+img{
+    width: 100%;
+}
+
+.imagen{
+    width: 10%;
+    margin: auto;
+}

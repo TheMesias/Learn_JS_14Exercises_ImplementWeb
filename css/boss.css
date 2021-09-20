@@ -1,0 +1,37 @@
+.nav{
+    background-color: #595959;
+   
+}
+
+.nav-item a{
+    color: #fff;
+}
+
+.emergente{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    width: 250px;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.container-cards{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    height: auto;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.btn-e i {
+    margin-right: 5px;
+    color: #000;
+}

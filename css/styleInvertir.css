@@ -1,0 +1,37 @@
+img{
+    width: 100%;
+    margin-top: -8px;
+}
+.code{
+    margin-top: 50px;
+    display: grid;
+    width: inherit;
+    height: auto;
+    grid-template-columns: repeat(2, 50%);
+    background-color: rgb(59, 59, 59);
+    margin-bottom: 50px;
+}
+
+.html, .js{
+    padding: 1rem;
+}
+
+
+.code p {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.error{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    text-align: center;
+    background-color: rgb(136, 22, 22);
+    color: #fff;
+    margin-bottom: 20px;
+}

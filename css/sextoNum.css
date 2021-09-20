@@ -1,0 +1,31 @@
+input{
+  
+    margin-bottom: 30px;
+    
+}
+
+.contenedor-formulario{
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formulario{
+    width: 400px;
+}
+.nuno{
+    margin: auto;
+    width: 40%;
+    margin-left: 10px;
+}
+
+button{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

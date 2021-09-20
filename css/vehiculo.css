@@ -1,0 +1,16 @@
+.respuesta{
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    width: 49%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+}

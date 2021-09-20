@@ -1,0 +1,81 @@
+main{
+    padding-bottom: 20px;
+}
+.airplane{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.contenedor-formulario{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.air{
+    max-width: 250px;
+    animation: rotar 2s infinite alternate ease-out;
+}
+
+.fl{
+    display: flex;
+    width: 100%;
+}
+
+.fl input{
+    margin-right: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+
+    width: 50%;
+}
+
+@keyframes rotar {
+    0%{
+        transform: scale(0.9) rotate(0); 
+    }
+    100%{
+        transform: scale(1.05) rotate(0); 
+    }
+}
+
+.main p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#infoHoras{
+    width: 45%;
+    margin: auto;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#infoHoras p{
+    text-align: left;
+    font-size: .8rem;
+    margin:  0;
+    margin-left: 5px;
+    padding: .2rem;
+}
+
+#info{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}

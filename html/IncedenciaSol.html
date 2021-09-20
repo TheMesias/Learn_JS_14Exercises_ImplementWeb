@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link rel="stylesheet" href="/css/IncidenciaSol.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="barra contenedor">
+            <div class="nombre-sitio">
+                <p>T'Mesias</p>
+            </div>
+            <nav class="menu">
+                <a href="/html/index.html">Inicio</a>
+                <a href="#">Prueba</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <h1>Incidencia del Sol</h1>
+        <div class="imagen">
+            <img src="/img/sunny.svg" alt="" srcset="">
+        </div>
+        <div id="respuesta" class="respuesta"><h4>RESPUESTA</h4></div>
+        <form action="" id="formulario" class="formulario">
+            <div class="contenedor-formulario">
+                <label >Ingrese la altura</label>
+                <input type="number" id="altura" min="1" max="999" required>
+                <label >Ingrese el largo de la sombra</label>
+                <input type="number" id="sombra" min="1" max="999" required>
+                <button type="submit">ENVIAR</button> 
+            </div>
+        </form>
+    </main>
+
+    <script src="/js/IncidenciaSol.js"></script>
+</body>
+</html>

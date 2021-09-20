@@ -1,0 +1,19 @@
+button{
+    width: 100%;
+}
+
+.formulario{
+    width: 40%;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    width: 20%;
+}
+
+#rt{
+    margin-bottom: 8px;
+}
